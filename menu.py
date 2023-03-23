@@ -86,6 +86,46 @@ def menu():
         rectangulo = Figura.Rectangulo(punto1, punto2)
         print("Base: ", rectangulo.base())
 
+    elif opcion == 9:
+        x1 = int(input("Introduce la coordenada x del primer punto: "))
+        y1 = int(input("Introduce la coordenada y del primer punto: "))
+        x2 = int(input("Introduce la coordenada x del segundo punto: "))
+        y2 = int(input("Introduce la coordenada y del segundo punto: "))
+        punto1 = Punto.Punto(x1, y1)
+        punto2 = Punto.Punto(x2, y2)
+        rectangulo = Figura.Rectangulo(punto1, punto2)
+        print("Altura: ", rectangulo.altura())
+
+    elif opcion == 10:
+        x1 = int(input("Introduce la coordenada x del primer punto: "))
+        y1 = int(input("Introduce la coordenada y del primer punto: "))
+        x2 = int(input("Introduce la coordenada x del segundo punto: "))
+        y2 = int(input("Introduce la coordenada y del segundo punto: "))
+        punto1 = Punto.Punto(x1, y1)
+        punto2 = Punto.Punto(x2, y2)
+        rectangulo = Figura.Rectangulo(punto1, punto2)
+        print("Area: ", rectangulo.area())
+
+    elif opcion == 11:
+        x1 = int(input("Introduce la coordenada x del primer punto: "))
+        y1 = int(input("Introduce la coordenada y del primer punto: "))
+        x2 = int(input("Introduce la coordenada x del segundo punto: "))
+        y2 = int(input("Introduce la coordenada y del segundo punto: "))
+        punto1 = Punto.Punto(x1, y1)
+        punto2 = Punto.Punto(x2, y2)
+        rectangulo = Figura.Rectangulo(punto1, punto2)
+        print("Perimetro: ", rectangulo.perimetro())
+
+    elif opcion == 12:
+        x1 = int(input("Introduce la coordenada x del primer punto: "))
+        y1 = int(input("Introduce la coordenada y del primer punto: "))
+        x2 = int(input("Introduce la coordenada x del segundo punto: "))
+        y2 = int(input("Introduce la coordenada y del segundo punto: "))
+        punto1 = Punto.Punto(x1, y1)
+        punto2 = Punto.Punto(x2, y2)
+        rectangulo = Figura.Rectangulo(punto1, punto2)
+        print("Diagonal: ", rectangulo.diagonal())
+
 
 
 
